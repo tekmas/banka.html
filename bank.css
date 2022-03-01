@@ -1,23 +1,21 @@
-body {
-    padding: 0;
-    margin: 0;
-  }
+
   
   .ust-menu {
-    height:25px ;
+   
+    height:30px ;
     background-color:red;
-    
-    top: 0;
+  
   }
   .ust-sag-menu {
     text-align: right;
-    color: white;
+    
   
   } 
   .header {
+    
     background-color: rgb(197, 197, 197);
     
-    top:25px;
+    
   }
   
   .header div,
@@ -29,12 +27,20 @@ body {
   }
   
   .header .menu{
-    text-align: right;
+    text-align: right; 
+    color: black;
+
   }
- 
+ .menu a {
+   color: black;
+   text-decoration: none;
+ }
   
   .ust-menu a {
     color: white;
     text-decoration: none;
   }
-  
+  .ust-sag-menu a:hover,
+  .menu a:hover{
+    color: blue;
+  }
